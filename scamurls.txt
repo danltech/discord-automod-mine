@@ -1,0 +1,15 @@
+# Scam URLs & Links (Regex Blocklist)
+# Diese Datei enthält reguläre Ausdrücke zur Erkennung von potenziell betrügerischen URLs und Einladungslinks.
+# Jeder Eintrag ist ein Regex-Pattern, das als ODER (OR) in der Bot-Logik verwendet werden sollte.
+
+# 1. Generische Spam-Shortener und Link-Dienste:
+(?:tinyurl\.com|bit\.ly|goo\.gl|is\.gd|t\.co|r\/s\.am)
+
+# 2. Muster für Gewinn-/Preisscams (betreffend "win", "claim", etc.):
+(?:http[s]?:\/\/[\w.-]+\.(?:biz|xyz|site|com)\/[\w-]+|\b(?:win|claim|prize|free\s+money)\b)
+
+# 3. Discord Invite Links (discord.gg), die zur Erkennung hinzugefügt wurden:
+(discord\.gg\/[a-z0-9]{6,15})
+
+# 4. Muster für kritische/gefährliche Protokolle und spezifische Phrasen:
+(?:ftp:\/\/[\w.-]+\.com\/details|\b(?:scam|fraud|betrug)\b)
