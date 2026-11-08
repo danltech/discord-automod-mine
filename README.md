@@ -13,7 +13,7 @@ Dieses Repository bietet eine strukturierte Aufteilung der Verstoßstypen (Low, 
 ## 🚀 Installation
 
 1.  Klonen Sie das Repository:
-    \`git clone https://github.com/danltech/discord-automod-mine.git\`
+    `git clone https://github.com/danltech/discord-automod-mine.git`
 2.  Platzieren Sie die Dateien in Ihrem Discord Bot Projektordner.
 3.  Stellen Sie sicher, dass Ihr Bot die `low.txt`, `medium.txt`, `high.txt` und `critical.txt` Dateien korrekt lädt.
 
@@ -26,4 +26,4 @@ Dieses Repository bietet eine strukturierte Aufteilung der Verstoßstypen (Low, 
 
 ## 🤝 Beitrag leisten
 
-Wir freuen uns über jeden Beitrag zur Verbesserung der Wortlisten und zur Optimierung des Codes! Bitte siehe die Datei \`CONTRIBUTING.md\` für Details.
+Wir freuen uns über jeden Beitrag zur Verbesserung der Wortlisten und zur Optimierung des Codes! Bitte siehe die Datei `CONTRIBUTING.md` für Details.
