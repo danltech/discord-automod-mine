@@ -7,7 +7,6 @@
 
 # Spam und Pattern-Matching
 (tinyurl\.com|bit\.ly|goo\.gl|is\.gd)
-([a-z0-9]{2,5})[\.\*#$@]*([a-z0-9]{2,5})
 
 # Server-Brigading / Geringe Beleidigung
 \b(servername|ServerName|ServerName2|servername2)\b
