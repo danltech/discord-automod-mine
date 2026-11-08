@@ -1,0 +1,4 @@
+# Hohe Schwere – Beispielmuster
+\bnigger\b
+\bkike\b
+\bterrorist\b

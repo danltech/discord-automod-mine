@@ -1,0 +1,5 @@
+# Niedrige Schwere – Beispielmuster (eine Regex pro Zeile)
+# Diese Datei dient nur als Vorlage. Ersetze die Einträge durch echte Muster.
+\bidiot\b
+\bdumm\b
+\bnoob\b

@@ -1,0 +1,4 @@
+# Kritische Schwere – Beispielmuster (sehr streng)
+# Hier gehören z.B. CSAM-Begriffe, Doxxing-Muster usw. hin
+# (Platzhalter – bitte mit echten, relevanten Mustern füllen)
+\bexample_critical_pattern\b

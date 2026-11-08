@@ -1,0 +1,4 @@
+# Mittlere Schwere – Beispielmuster
+\bhurensohn\b
+\bschlampe\b
+\bfick\b
