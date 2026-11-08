@@ -4,7 +4,11 @@ https?://(www\.)?böseseite\.com
 https?://(www\.)?hassemcserverundsoshit\.net
 \b(servername|ServerName|ServerName2|servername2)\b
 
-(?i)\b(?:arsch(?:loch)?|fick(?:en|er|t|st)?|schei(?:ss|ß)e?(?:n|t|st)?|hure(?:n(?:sohn)?)?|bastard|wichser|fotze|nutte|schlampe|schwanz|pimmel|titten|mist(?:stück)?|verdammt|idiot|depp|vollidiot|sau(?:erei)?|dreck(?:stück)?|beschissen|leck\s+mich|fresse|verpiss\s+dich|fuck|shit|bitch|cunt|sex)
+([a-z0-9]{2,5})[\.\*#$@]*([a-z0-9]{2,5})
+
+(?i)\b(?:arsch(?:loch)?|fick(?:[e\*.]?n|er|t|st)?|schei(?:ss|ß)e?(?:[n\*.]?t|st)?|hure(?:n(?:sohn)?)?|bastard|wichser|fotze|nutte|schlampe|schwanz|pimmel|titten|mist(?:stück)?|verdammt|idiot|depp|vollidiot|sau(?:[e\*.]?rei)?|dreck(?:[s\*.]?stück)?|beschissen|leck\s+mich|fresse|verpiss\s+dich|fuck|shit|bitch|cunt|sex)
+
+(tinyurl\.com|bit\.ly|goo\.gl|is\.gd)
 
 fett
 
