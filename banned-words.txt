@@ -1,0 +1,11 @@
+\b(schimpfwort1|schimpfwort2)\b
+\b(nigger|niggr|ni##er|nigger)\b
+https?://(www\.)?böseseite\.com
+https?://(www\.)?hassemcserverundsoshit\.net
+\b(servername|ServerName|ServerName2|servername2)\b
+
+(?i)\b(?:arsch(?:loch)?|fick(?:en|er|t|st)?|schei(?:ss|ß)e?(?:n|t|st)?|hure(?:n(?:sohn)?)?|bastard|wichser|fotze|nutte|schlampe|schwanz|pimmel|titten|mist(?:stück)?|verdammt|idiot|depp|vollidiot|sau(?:erei)?|dreck(?:stück)?|beschissen|leck\s+mich|fresse|verpiss\s+dich|fuck|shit|bitch|cunt|sex)
+
+fett
+
+
