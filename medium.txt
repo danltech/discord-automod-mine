@@ -1,4 +1,17 @@
-# Mittlere Schwere – Beispielmuster
-\bhurensohn\b
-\bschlampe\b
-\bfick\b
+# Mittlere Verstöße (Medium Severity)
+# Typische Beleidigungen, Spam-Links und geringfügige Aggressionen. Diese erfordern oft einen Warnhinweis oder eine temporäre Sperre.
+
+# Alltägliche Schimpfwörter und Ärgernisse
+(?i)\b(?:arschloch|schei[ss]e?(?:[n\*.]?t|st)?|fick(?:[e\*.]?n|er|t|st)?|verdammt|beschissen|leck\s+mich|fresse|verpiss\s+dich)
+\b(fuck|shit|bitch|cunt)
+
+# Spam und Pattern-Matching
+(tinyurl\.com|bit\.ly|goo\.gl|is\.gd)
+([a-z0-9]{2,5})[\.\*#$@]*([a-z0-9]{2,5})
+
+# Server-Brigading / Geringe Beleidigung
+\b(servername|ServerName|ServerName2|servername2)\b
+\b(unfähig|dummkopf)
+
+# Ergänzungen:
+\b(verräter|schandfleck)\b

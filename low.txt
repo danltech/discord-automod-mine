@@ -1,5 +1,10 @@
-# Niedrige Schwere – Beispielmuster (eine Regex pro Zeile)
-# Diese Datei dient nur als Vorlage. Ersetze die Einträge durch echte Muster.
-\bidiot\b
-\bdumm\b
-\bnoob\b
+# Geringe Verstöße (Low Severity)
+# Geeignet für leichte Beleidigungen, Server-Brigading oder geringfügige Spam-Versuche.
+
+\b(schimpfwort1|schimpfwort2)\b
+\b(idiot|depp)\b
+\b(servername|ServerName|ServerName2|servername2)\b
+\b(noob|schwächling|lächerlich)\b
+
+# Ergänzungen:
+\b(unfähig|dummkopf)\b

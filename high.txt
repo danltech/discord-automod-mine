@@ -1,4 +1,16 @@
-# Hohe Schwere – Beispielmuster
-\bnigger\b
-\bkike\b
-\bterrorist\b
+# Hohe Verstöße (High Severity)
+# Stark beleidigende oder bedrohliche Sprache, die eine sofortige Sperrung oder Eskalation erfordert.
+
+# Extreme Beleidigungen und Bedrohung
+(?i)\b(?:verräter|schandfleck|mord|töten|blutbad|gewalt)
+\b(vollidiot|sauerei|dreckstück)
+
+# Gefährliche oder explizite Inhalte/Links
+https?://(www\.)?böseseite\.com
+\b(sex|fetzen) # Falls nicht bereits in Medium, hier als Eskalation
+
+# Spam und Pattern-Matching (Wenn es sich um bekannte Phishing-Muster handelt)
+([a-z0-9]{2,5})[\.\*#$@]*([a-z0-9]{2,5})
+
+# Ergänzungen:
+\b(kill|murder|suizid)\b
