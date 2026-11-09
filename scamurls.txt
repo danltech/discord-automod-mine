@@ -13,3 +13,4 @@
 
 # 4. Muster für kritische/gefährliche Protokolle und spezifische Phrasen:
 (?:ftp:\/\/[\w.-]+\.com\/details|\b(?:scam|fraud|betrug)\b)
+pretty girlsomg girl in cam
