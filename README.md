@@ -1,6 +1,6 @@
 # 🤖 Discord AutoMod Mine
 
-Ein robustes Modul zur automatischen Moderation von Discord-Servern mittels Reguläre Ausdrücke.
+Ein robustes Tool zur automatischen Moderation von Discord-Servern mittels Regex.
 
 Dieses Repository bietet eine strukturierte Aufteilung der Verstoßstypen (Low, Medium, High, Critical), um die Automatisierungsentscheidungen des Bots präzise zu steuern und False Positives zu minimieren.
 
@@ -8,7 +8,7 @@ Dieses Repository bietet eine strukturierte Aufteilung der Verstoßstypen (Low, 
 
 *   **Strukturierte Moderation:** Kategorisierte Wortlisten für unterschiedliche Schweregrade (`low.txt` bis `critical.txt`).
 *   **Erweiterbar:** Einfache Hinzufügung neuer Wörter und Muster in den jeweiligen `.txt` Dateien.
-*   **Regelbasierte Filterung:** Nutzung von regulären Ausdrücken für komplexe Mustererkennung (Spam, URLs, Beleidigungen).
+*   **Regelbasierte Filterung:** Nutzung von Regex für komplexe Mustererkennung (Spam, URLs, Beleidigungen).
 *   **Scam/URL-Erkennung:** Einführung von `scamurls.txt`, um Shortener, Gewinnphrasen und verdächtige Discord Invite Links (`discord.gg`) zu blockieren.
 
 ## 🚀 Installation
